@@ -1,18 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>MP0 — Profile Card</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+  </head>
+  <body>
+    <main class="page">
+      <section class="card" aria-labelledby="name">
+        <img class="avatar" src="assets/me.jpg" alt="Portrait" width="150" height="150" />
+          <script src="/bundle.js"></script> 
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MP 0</title>
-</head>
 
-<body>
-  <h1>Hello World!</h1>
-  <img src="assets/image.jpg" />
+        <h1 id="name">Neeraj Sai Kondaveeti</h1>
+        <p class="email"><em>nsk9@illinois.edu</em></p>
 
-  <script src="bundle.js" type="text/javascript"></script>
-</body>
+        <p class="center">
+          <a class="gh" href="https://github.com/KNeerajSai" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+        </p>
 
+        <p class="bio">
+          Grad student in Information Management at the University of Illinois at Urbana-Champaign.
+          I work as Student Data Engineer at the University of Illinois College of Veterinary Medicine. My interests include exploring data models, AI prototyping and developing question-driven solutions.
+        </p>
+
+        <p class="bio">
+          I have worked as Senior Analyst at Capgemini MNC. I have also interned with Veterinary Innovation Hub at UIUC, Capgemini, Noobtron.  
+          I graduated from CMR-JNTUH in 2022.
+        </p>
+      </section>
+    </main>
+  </body>
 </html>

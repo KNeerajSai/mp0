@@ -60,6 +60,12 @@ h1 {
 
 .center { text-align: center; }
 
+:root {
+
+  --link: #481c8e;   
+
+}
+
 .gh {
   color: var(--link);
   text-decoration: underline;
